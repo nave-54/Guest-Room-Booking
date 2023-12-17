@@ -79,7 +79,7 @@ function LoginS() {
             </div>
             <div className="mb-3">
               <label htmlFor="password" className="form-label">Password:</label>
-              <input type="text" className="form-control" id="password" name="password" required onChange={handleChange}/>
+              <input type="password" className="form-control" id="password" name="password" required onChange={handleChange}/>
             </div>
             <div className="mb-3">
               <label htmlFor="address" className="form-label">Address:</label>
