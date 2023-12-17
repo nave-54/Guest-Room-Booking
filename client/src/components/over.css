@@ -1,0 +1,9 @@
+body.override-background {
+    background: url('./pics/images.png') center center/cover no-repeat;
+    height: auto;
+  }
+  .card-body {
+    background: linear-gradient(to right, #b2b2b2, #ffffff); 
+    text-shadow: 0 0 10px rgb(122, 122, 122);
+    color:white;
+  }  

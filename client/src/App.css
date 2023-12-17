@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+.nav_ul li {
+  padding: 0 0.6rem;
+}
+
+.nav_ul a {
+  font-size: 1.05rem;
+  color: #ccc;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.btn1 {
+  border: 0;
+  padding: 0.5rem 1.8rem;
+  color: #fff;
+  background-color: crimson;
+  transition: background-color 0.3s ease; 
+}
+
+.btn1:hover {
+  background-color: black;
+}
+
+
+.ft-1 h3 {
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+  
+}
+
+.ft-1 span {
+  color: #f60838;
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+  text-shadow: 0 0 10px rgb(250, 247, 247); 
+
+}
+.active-link {
+  background-color: #000000; 
+}
+.glow-text {
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+}
+.glow-tex {
+  text-shadow: 0 0 5px rgb(255, 0, 0);
+}
+.text-crimson {
+  color: crimson;
+}
